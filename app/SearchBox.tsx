@@ -17,7 +17,7 @@ function SearchBox() {
     return (
     <form 
     onSubmit={handleSearch}
-    className="bg-black max-w-7xl mx-auto flex justify-between items-center px-5">
+    className="bg-gray-50 max-w-7xl mx-auto flex justify-between items-center px-5">
 
         <input type="text"
         value={input}
