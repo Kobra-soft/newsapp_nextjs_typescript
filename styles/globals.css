@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navLink {
+    @apply text-gray-900 hover:underline decoration-teal-500 text-center 
+    decoration-2 active:underline underline-offset-8
+    rounded-full p-1 sm:p-2 md:p-4
+    cursor-pointer hover:font-bold capitalize hover:scale-110 
+    transition-transform duration-75 ease-out;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
