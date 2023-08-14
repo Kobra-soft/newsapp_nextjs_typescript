@@ -1,6 +1,7 @@
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import NavLinks from './NavLinks';
+import SearchBox from './SearchBox';
 
 /* import { Poppins } from 'next/font/google';
 const poppins = Poppins({ weight: "600", subsets: ["latin"] }); */
@@ -36,7 +37,7 @@ function Header() {
         <div className='flex items-center justify-end space-x-2'>
             {/* DarkModeButton */}
 
-            <button className={`${poppins.className} hidden md:inline bg-slate-900 text-white
+            <button className={`${poppins.className} hidden md:inline bg-black text-white
             px-4 lg:px-8 py-2 lg:py-4 rounded-full dark:bg-slate-800`}>
                 Subscribe Now
             </button>
@@ -46,7 +47,7 @@ function Header() {
         {/* NavLinks */}
         <NavLinks />
 
-        {/* SearchBox */}
+        <SearchBox />
 
     </header>
   );
