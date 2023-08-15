@@ -1,12 +1,12 @@
 type Category = 
-| "General"
+| "News"
 | "Business"
-| "Weather"
 | "Health"
+| "Gaming"
 | "Science"
 | "Sports"
-| "Technology"
-| "Others"
+| "Tech"
+| "Travel"
 
 /*     "Sports",
     "News",
