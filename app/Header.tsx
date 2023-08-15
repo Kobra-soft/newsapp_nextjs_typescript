@@ -28,11 +28,11 @@ const poppins2 = Nunito({ weight: "300", subsets: ["latin"] });
 function Header() {
   return (
     <header>
-        <div className='grid grid-cols-3 p-4 sm:p-4 md:p-8 items-center 
-        sm:border-b md:border-b-0 border-b '>
+        <div className='grid grid-cols-3 p-4 sm:p-4 md:p-8 md:py-10 lg:p-8 items-center 
+        border-b sm:border-b md:border-b-0'>
             <Bars3Icon className="h-8 w-8 cursor-pointer"/>
             <Link href="/" prefetch={false}>
-                <h1 className={`${poppins.className} lg:text-[38px] text-2xl sm:text-2xl md:text-3xl text-center`}>News Hub</h1>
+                <h1 className={`${poppins.className} lg:text-[38px] text-1xl sm:text-2xl md:text-2xl text-center`}>News Hub</h1>
             </Link>
 
         <div className='flex items-center justify-end space-x-2'>
