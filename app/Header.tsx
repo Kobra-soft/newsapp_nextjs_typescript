@@ -32,7 +32,7 @@ function Header() {
         border-b sm:border-b md:border-b-0'>
             <Bars3Icon className="h-8 w-8 cursor-pointer"/>
             <Link href="/" prefetch={false}>
-                <h1 className={`${poppins.className} lg:text-[38px] text-1xl sm:text-2xl md:text-2xl text-center`}>News Hub</h1>
+                <h1 className={`${poppins.className} lg:text-[38px] text-xl sm:text-xl md:text-2xl text-center`}>News Hub</h1>
             </Link>
 
         <div className='flex items-center justify-end space-x-2'>
