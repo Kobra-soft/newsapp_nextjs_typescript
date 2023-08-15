@@ -8,7 +8,9 @@
     decoration-2 active:underline underline-offset-8
     rounded-full p-1 sm:p-2 md:p-4
     cursor-pointer hover:font-bold capitalize hover:scale-110 
-    transition-transform duration-75 ease-out;
+    transition-transform duration-75 ease-out
+
+    dark:text-gray-300
   }
 }
 

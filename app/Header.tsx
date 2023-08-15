@@ -40,7 +40,7 @@ function Header() {
 
             <button className={`${poppins2.className} hidden md:inline bg-black text-white
             px-6 lg:px-8 py-2 lg:py-4 rounded-full dark:bg-white dark:text-black
-            text-base md:text-sm lg:text-base 
+            text-base md:text-sm lg:text-base
             `}>
                 Subscribe Now
             </button>

@@ -29,7 +29,9 @@ function SearchBox() {
         text-gray-400 outline-none
         flex-1 
         dark:text-teal-500
-        font-light"
+        font-light
+        dark:bg-white"
+        
         />
 
         <button
