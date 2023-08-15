@@ -27,7 +27,7 @@ function SearchBox() {
         placeholder-gray-400/60
         placeholder-opacity-70
         text-gray-400 outline-none
-        flex-1 bg-transparent
+        flex-1 
         dark:text-teal-500
         font-light"
         />
