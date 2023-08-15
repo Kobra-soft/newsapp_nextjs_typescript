@@ -17,13 +17,13 @@ function SearchBox() {
     return (
     <form 
     onSubmit={handleSearch}
-    className="bg-gray-50 max-w-7xl mx-auto flex justify-between items-center pl-5 border-b">
+    className="bg-gray-50 max-w-7xl mx-auto flex justify-between items-center pl-0 border-b">
 
         <input type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Search for keywords..."
-        className="w-full h-14
+        className="w-full h-14 pl-4
         placeholder-gray-400/60
         placeholder-opacity-70
         text-gray-400 outline-none

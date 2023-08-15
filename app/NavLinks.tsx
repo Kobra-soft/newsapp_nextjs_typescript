@@ -34,7 +34,10 @@ function NavLinks() {
 
   return ( 
     <nav className={`${poppins.className} grid grid-cols-4 md:grid-cols-8 text-xs md:text-xs lg:text-sm
-    gap-4 pb-3 sm:pb-1 md:pb-1 lg:max-w-7xl md:max-w-8xl mx-auto border-b`}>
+    gap-2 sm:gap-0 md:gap-0
+    pb-3 sm:pb-2 md:pb-1 
+    pt-3 sm:pt-3 md:pt-0
+    lg:max-w-7xl md:max-w-8xl mx-auto border-b`}>
         {categories.map((category) => (
             <NavLink 
             key={category} 
