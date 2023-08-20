@@ -1,4 +1,4 @@
-type DataEntry {
+type Article {
   author: String
   category: String
   country: String
@@ -19,7 +19,7 @@ type Pagination {
 }
 
 type Root {
-  data: [DataEntry]
+  data: [Article]
   pagination: Pagination
 }
 
@@ -27,8 +27,10 @@ type Query {
   myQuery(
     access_key: String
     countries: String
+    categories: String
     limit: String
     offset: String
     sort: String
+    keywords: String
   ): Root @rest(endpoint: "http://api.mediastack.com/v1/news")
 }
